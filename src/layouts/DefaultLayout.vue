@@ -13,6 +13,7 @@
             left-arrow
             @click-left="router.back()"
             class="glass-nav"
+            fixed
           />
         </template>
         <template v-else>
@@ -118,6 +119,7 @@ onMounted(() => {
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  z-index: 100;
 }
 
 /* Element Plus Menu Overrides */

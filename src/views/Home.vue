@@ -184,12 +184,36 @@ const tools = ref<Tool[]>([
 @media (max-width: 768px) {
   .home-container {
     min-height: calc(100vh - var(--nav-height-mobile) - 2rem);
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .hero-section {
     margin-bottom: 2rem;
   }
   .main-title {
     font-size: 2.5rem;
+  }
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .tool-card {
+    padding: 1.5rem 1rem;
+  }
+  .tool-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .tool-name {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .tool-description {
+    font-size: 0.8rem;
+    line-height: 1.4;
   }
 }
 </style> 
