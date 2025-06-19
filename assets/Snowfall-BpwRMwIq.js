@@ -1,0 +1,1 @@
+import{z as n,j as e,v as s,F as o,A as t,l as c}from"./index-DeoMncu6.js";const r={},l={class:"snowfall-container"};function _(d,f){return s(),e("div",l,[(s(),e(o,null,t(150,a=>c("div",{key:`snow-${a}`,class:"snowflake"})),64))])}const m=n(r,[["render",_],["__scopeId","data-v-f2619446"]]);export{m as default};
