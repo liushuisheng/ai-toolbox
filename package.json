@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://liushuisheng.github.io/ai-life-treasure-box",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vueuse/core": "^10.7.0",
@@ -23,15 +25,16 @@
     "@unocss/preset-attributify": "^0.58.0",
     "@unocss/preset-icons": "^0.58.0",
     "@unocss/preset-uno": "^0.58.0",
-    "@vitejs/plugin-vue": "^4.5.0",
+    "@vitejs/plugin-vue": "^5.2.4",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.0",
-    "typescript": "^5.2.0",
+    "typescript": "^5.8.3",
     "unocss": "^0.58.0",
     "unplugin-auto-import": "^0.17.0",
     "unplugin-vue-components": "^0.26.0",
-    "vite": "^5.0.0",
-    "vue-tsc": "^1.8.0"
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10"
   }
 }
